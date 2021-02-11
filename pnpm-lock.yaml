@@ -1,6 +1,7 @@
 dependencies:
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
+  react-icons: 4.2.0_react@17.0.1
 devDependencies:
   '@snowpack/plugin-dotenv': 2.0.5
   '@snowpack/plugin-react-refresh': 2.4.0_react-dom@17.0.1+react@17.0.1
@@ -2046,6 +2047,14 @@ packages:
       react: 17.0.1
     resolution:
       integrity: sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
+  /react-icons/4.2.0_react@17.0.1:
+    dependencies:
+      react: 17.0.1
+    dev: false
+    peerDependencies:
+      react: '*'
+    resolution:
+      integrity: sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==
   /react-is/17.0.1:
     dev: true
     resolution:
@@ -2509,4 +2518,5 @@ specifiers:
   prettier: ^2.0.5
   react: ^17.0.0
   react-dom: ^17.0.0
+  react-icons: ^4.2.0
   snowpack: ^3.0.1
