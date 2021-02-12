@@ -4,6 +4,7 @@ import './App.css';
 import StarRating from './StarRating.jsx';
 import colorData from './color-data.json';
 import ColorList from './ColorList.jsx';
+import AddColorForm from './AddColorForm.jsx';
 
 function App() {
   const [colors, setColors] = useState(colorData);
@@ -22,6 +23,10 @@ function App() {
           setColors(newColors);
         }}
       />
+          <AddColorForm onNewColor={(title,color) => {
+            const newColors = [...colors, {title, color}];
+            setColors(newColors);
+          }}/>
     </div>
   );
 }
