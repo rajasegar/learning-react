@@ -31,8 +31,8 @@ function App() {
             {
               id: v4(),
               rating: 0,
-              title,
-              color,
+              title: title.value,
+              color: color.value,
             },
           ];
           setColors(newColors);
