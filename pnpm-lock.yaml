@@ -2,6 +2,7 @@ dependencies:
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.2.0_react@17.0.1
+  uuid: 8.3.2
 devDependencies:
   '@snowpack/plugin-dotenv': 2.0.5
   '@snowpack/plugin-react-refresh': 2.4.0_react-dom@17.0.1+react@17.0.1
@@ -11,7 +12,7 @@ devDependencies:
   chai: 4.3.0
   prettier: 2.2.1
   snowpack: 3.0.11
-lockfileVersion: 5.2
+lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.12.13:
     dependencies:
@@ -2418,7 +2419,6 @@ packages:
     resolution:
       integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
   /uuid/8.3.2:
-    dev: true
     hasBin: true
     resolution:
       integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
@@ -2520,3 +2520,4 @@ specifiers:
   react-dom: ^17.0.0
   react-icons: ^4.2.0
   snowpack: ^3.0.1
+  uuid: ^8.3.2
