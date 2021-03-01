@@ -5,12 +5,14 @@ import StarRating from './StarRating.jsx';
 import colorData from './color-data.json';
 import ColorList from './ColorList.jsx';
 import AddColorForm from './AddColorForm.jsx';
+import GithubUser from './GithubUser.jsx';
 import { v4 } from 'uuid';
 
 function App() {
   const [colors, setColors] = useState(colorData);
   return (
     <div className="App">
+      {/*
       <ColorList
         colors={colors}
         onRateColor={(id, rating) => {
@@ -38,6 +40,8 @@ function App() {
           setColors(newColors);
         }}
       />
+      */}
+        <GithubUser login="rajasegar-c" />
     </div>
   );
 }
