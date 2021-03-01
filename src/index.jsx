@@ -4,13 +4,13 @@ import App from './App.jsx';
 import './index.css';
 import colors from './color-data.json';
 
-export const ColorContext = createContext();
+import ColorProvider from './ColorProvider.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ColorContext.Provider value={{ colors }}>
+    <ColorProvider>
       <App />
-    </ColorContext.Provider>
+    </ColorProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 );

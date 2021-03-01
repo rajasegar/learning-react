@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, createContext, useContext } from 'react';
 
 export const useInput = (initialValue) => {
   const [value, setValue] = useState(initialValue);
@@ -7,3 +7,6 @@ export const useInput = (initialValue) => {
     () => setValue(initialValue),
   ];
 };
+
+const ColorContext = createContext();
+export const useColors = () => useContext(ColorContext);
