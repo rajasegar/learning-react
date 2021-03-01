@@ -41,7 +41,7 @@ function App() {
         }}
       />
       */}
-        <GithubUser login="rajasegar-c" />
+        <GithubUser login="rajasegar" />
     </div>
   );
 }
